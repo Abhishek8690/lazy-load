@@ -1,0 +1,14 @@
+.card{
+    /* display: none; */
+    font-size: medium;
+    padding: 2% 4%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    width: 15%;
+    transition: 150ms;
+    opacity: 0;
+}
+.card.show {
+   transform: translateX(0);
+   opacity: 1;
+}
